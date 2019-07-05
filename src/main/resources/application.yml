@@ -58,6 +58,7 @@ shiro:
         cookie:
             maxAge: 604800
 logging:
+    path: /home/blog/logs
     level:
         org.springframework: WARN
         org.hibernate: WARN
