@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mtons.mblog</groupId>
 	<artifactId>mblog</artifactId>
-	<version>latest</version>
+	<version>1.0.0.RELEASE</version>
 	<packaging>jar</packaging>
 
 	<properties>
@@ -275,6 +275,15 @@
 				<profileActive>h2</profileActive>
 			</properties>
 		</profile>
+
+		<!-- 生产环境 -->
+		<profile>
+			<id>prod</id>
+			<properties>
+				<profileActive>prod</profileActive>
+			</properties>
+		</profile>
+
 	</profiles>
 
 	<build>
